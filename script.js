@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const backButton = spotContainer.querySelector('.back-button');
         backButton.addEventListener('click', () => {
-            window.location.reload();
+            window.location.href = 'hunt.html';
         });
     }
 });
